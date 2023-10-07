@@ -2,7 +2,7 @@
 <html lang="en">
 @extends('layout.front.header')
 @section('title', 'home')
-
+@section('content')
 <body>
     <div class="page-wrapper">
         @include('layout.front.navbar')
@@ -294,5 +294,6 @@
     </div>
     @include('layout.front.footer')
 </body>
+@endsection
 
 </html>

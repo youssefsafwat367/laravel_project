@@ -18,3 +18,4 @@
 
     <title>@yield('title' ,'home')</title>
 </head>
+@yield('content')
